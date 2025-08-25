@@ -263,4 +263,4 @@ ENTRYPOINT ["dotnet", "ApiEcommerce.dll"]
 
 Tu Nombre - [bs.alvarado21@gmail.com](mailto:bs.alvarado21@gmail.com)
 
-Link del Proyecto: [https://github.com/ItsNevits/ApiEcommerce](https://github.com/tu-usuario/API-Ecommerce)
+Link del Proyecto: [https://github.com/ItsNevits/API-Ecommerce](https://github.com/ItsNevits/API-Ecommerce)
