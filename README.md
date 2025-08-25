@@ -259,19 +259,8 @@ ENTRYPOINT ["dotnet", "ApiEcommerce.dll"]
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abrir un Pull Request
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
 ## 📞 Contacto
 
-Tu Nombre - [tu-email@example.com](mailto:tu-email@example.com)
+Tu Nombre - [bs.alvarado21@gmail.com](mailto:bs.alvarado21@gmail.com)
 
 Link del Proyecto: [https://github.com/tu-usuario/ApiEcommerce](https://github.com/tu-usuario/ApiEcommerce)
-
-## 🙏 Agradecimientos
-
-- [ASP.NET Core Documentation](https://docs.microsoft.com/aspnet/core/)
-- [Entity Framework Core Documentation](https://docs.microsoft.com/ef/core/)
-- [JWT.io](https://jwt.io/)
-- [Mapster](https://github.com/MapsterMapper/Mapster)
