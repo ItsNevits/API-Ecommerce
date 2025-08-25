@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "6f5202b2-40d1-4505-911d-a6f8410f1bdd",
+		"name": "API-Ecommerce-Course",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47866243"
+	},
+	"item": [
+		{
+			"name": "Categorias",
+			"item": [
+				{
+					"name": "Listado de categorias",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5051/api/Category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"Category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener una categoria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5051/api/Category/51bd904f-5ec4-4e40-9d3e-f7fe171866ec",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"Category",
+								"51bd904f-5ec4-4e40-9d3e-f7fe171866ec"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear categoria",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Accesorios\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5051/api/Category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"Category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar una categoria",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Ropa 2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5051/api/Category/51bd904f-5ec4-4e40-9d3e-f7fe171866ec",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"Category",
+								"51bd904f-5ec4-4e40-9d3e-f7fe171866ec"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar una categoria",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5051/api/Category/51bd904f-5ec4-4e40-9d3e-f7fe171866ec",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"Category",
+								"51bd904f-5ec4-4e40-9d3e-f7fe171866ec"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Usuarios",
+			"item": [
+				{
+					"name": "Obtener usuarios",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5051/api/User",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Crear usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Brian Alvarado\",\r\n  \"username\": \"Nevits\",\r\n  \"password\": \"admin123\",\r\n  \"role\": \"Admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5051/api/User",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"User"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener usuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5051/api/User/51bd904f-5ec4-4e40-9d3e-f7fe171866ec",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"User",
+								"51bd904f-5ec4-4e40-9d3e-f7fe171866ec"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5051/api/User/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5051",
+							"path": [
+								"api",
+								"User",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
